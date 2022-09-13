@@ -1,1 +1,1 @@
-tar -czvf scripts-2022-09-13-20-48-10.tar.gz *
+tar -czvf scripts-$(date "+%F-%H-%M-%S")-tar.gz *
