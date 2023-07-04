@@ -10,3 +10,5 @@ perform_backup() {
 }
 
 perform_backup
+
+exit 0
