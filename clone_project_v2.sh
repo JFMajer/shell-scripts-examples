@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 project=${1}
 branch=${2}

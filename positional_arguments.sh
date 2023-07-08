@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # $# - num of positional arguments
 # "$*" - all positional arguments (as a string)

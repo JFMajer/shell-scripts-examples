@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 MIN_VAL=1
 MAX_VAL=100

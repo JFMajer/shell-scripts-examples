@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 perform_backup() {
     backup_dir="backup_$(date +'%Y%m%d_%H%M%S')"
