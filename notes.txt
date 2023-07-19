@@ -3,3 +3,5 @@ tar -czvf scripts-$(date "+%F-%H-%M-%S")-tar.gz *
 echo "dir1 dir2 dir3" | xargs mkdir -p
 
 #!/usr/bin/env bash
+
+find . -maxdepth 1 -type f -name "*.sh" -exec chmod +x {} \;
