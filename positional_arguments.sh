@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
+# $@ - all positional arguments (as an array)
 # $# - num of positional arguments
-# "$*" - all positional arguments (as a string)
+# $* - all positional arguments (as a string)
 
 echo "\$@ is $@"
 
@@ -18,5 +19,11 @@ echo "Listing arguments..."
 
 for i in "$@" 
 do
+  echo "$i"
+done
+
+echo "################"
+
+for i in "$*"; do
   echo "$i"
 done
