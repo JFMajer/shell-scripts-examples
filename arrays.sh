@@ -43,3 +43,21 @@ echo "${arr2[@]}"
 # and yet another way to append to an array
 arr2[${#arr2[@]}]="Joseph"
 echo "${arr2[@]}"
+arr2[${#arr2[@]}]="John"
+echo "${arr2[@]}"
+
+# removing elements from an array
+unset arr2[1]
+echo "Array after removing the 2nd element"
+echo "${arr2[@]}"
+
+unset arr1 # remove the entire array
+echo "Array after removing the entire array"
+
+# sorting an array
+arr3=(1 5 3 2 4)
+echo "Array before sorting"
+echo "${arr3[@]}"
+sorted_arr3=($(for i in "${arr3[@]}"; do echo $i; done | sort))
+echo "Array after sorting"
+echo "${sorted_arr3[@]}"
