@@ -12,3 +12,18 @@ touch file{a..c} # create filea, fileb, filec
 touch file{dev,test,prod}{1..4}
 
 echo file{1,2,3}.txt
+
+
+
+awk -F ',' '{ print $2 }' data.txt
+awk 'NR == "1" { print }' data.txt
+awk -F ',' '{ print NF }' data.txt
+
+df -h | awk '{ print $1, $2 }'
+df -h | awk '{ print NR, $1, $4 }'
+df -h | awk 'NR == "3" { print $4 }'
+df -h | awk 'NR == "1" { print NF }'
+df -h | awk '{ print "Number of columns in line: " NR " is " NF }'
+
+df -h | awk '{ print NF }' is different from df -h | awk '{ print $NF }'
+First one prints the number of columns in each line, second one prints the last column of each line.
