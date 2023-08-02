@@ -1,0 +1,8 @@
+192.168.0.1 - - [02/Aug/2023:15:30:22 +0000] "GET /page1 HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36"
+192.168.0.2 - - [02/Aug/2023:15:31:14 +0000] "GET /page2 HTTP/1.1" 404 532 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36"
+192.168.0.3 - - [02/Aug/2023:15:32:05 +0000] "POST /submit HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36"
+192.168.0.4 - - [02/Aug/2023:15:33:40 +0000] "GET /page3 HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36"
+192.168.0.5 - - [02/Aug/2023:15:34:02 +0000] "GET /page4 HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36"
+192.168.0.6 - - [02/Aug/2023:15:35:11 +0000] "POST /submit HTTP/1.1" 200 3072 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36"
+192.168.0.7 - - [02/Aug/2023:15:36:55 +0000] "GET /page5 HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36"
+192.168.0.8 - - [02/Aug/2023:15:37:27 +0000] "GET /page6 HTTP/1.1" 200 8192 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36"
