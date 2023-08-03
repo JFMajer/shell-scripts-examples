@@ -27,3 +27,12 @@ df -h | awk '{ print "Number of columns in line: " NR " is " NF }'
 
 df -h | awk '{ print NF }' is different from df -h | awk '{ print $NF }'
 First one prints the number of columns in each line, second one prints the last column of each line.
+
+awk -F "|" '{ print $2, $4 }' data2.txt
+
+awk -v City="Chicago" -F "|" '$3 == City' data2.txt
+awk -v str1="Employee's First Name: " -F "|" '{ print str1, $1 }' data2.txt
+awk -v str1="Employee's First Name: " -F "|" 'NR > 1 { print str1, $1 }' data2.txt
+awk -v str1="Employee's First Name: " -F "|" 'NR > 1 && $7 >= 75000 { print str1, $1, $7 }' data2.txt
+awk -F "|" '$7 > 75000 && NR > 1' data2.txt 
+awk -F "|" -v low=50000 -v high=75000 '$7 >= low && $7 <= high' data2.txt

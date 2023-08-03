@@ -1,0 +1,6 @@
+Name|Age|City|Occupation|Email|Phone|Salary
+John|30|New York|Engineer|john@example.com|555-1234|75000
+Jane|25|Los Angeles|Designer|jane@example.com|555-5678|60000
+Michael|35|Chicago|Teacher|michael@example.com|555-9876|50000
+Emily|28|San Francisco|Doctor|emily@example.com|555-4567|90000
+David|40|Seattle|Writer|david@example.com|555-7890|80000
